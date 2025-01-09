@@ -1,6 +1,8 @@
 import regisztracio
 import sorozat
 
-regisztracio.elso()
+"""regisztracio.elso()"""
 print("II/A,B,C:")
-sorozat.masodik()
+szamok=sorozat.masodik()
+eredmeny=sorozat.nagyobb(szamok)
+sorozat.konzol_kiir(eredmeny)
